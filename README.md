@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/kfairy9999/hermes-phone-agent/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/kfairy9999/hermes-phone-agent/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Portfolio project by [Kevin Fairley](https://github.com/kfairy9999), a USMC veteran in Los Angeles looking for agentic-AI engineering roles.
+Portfolio project by [Kevin Fairley](https://github.com/kfairy9999), an AI engineer in Los Angeles looking for agentic-AI engineering roles.
 
 This repo installs [Nous Research's Hermes Agent](https://github.com/NousResearch/hermes-agent) at a pinned release, installs the official optional telephony skill, and adds the pieces a real deployment needs: a guard in front of outbound SMS and calls, a mock provider that spends nothing, and pluggable Bland and Vapi adapters. Hermes itself is not forked. The voice-provider split follows the open design in [issue 66963](https://github.com/NousResearch/hermes-agent/issues/66963), which is not merged upstream.
 
